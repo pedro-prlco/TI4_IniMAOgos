@@ -11,7 +11,8 @@ namespace TI4
         public enum PanelType
         {
             MainMenu,
-            Customize
+            Customize,
+            Config
         }
 
         [SerializeField]
