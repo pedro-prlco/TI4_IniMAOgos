@@ -28,3 +28,6 @@ MonoBehaviour:
   - Name: Ghost
     SkinMaterial: {fileID: 2100000, guid: 3309293818350ef42a24d77da9cab89b, type: 2}
     StorePresence: {fileID: 21300000, guid: b2ace9c2183f69c47b3aa8b69fe98ddd, type: 3}
+  - Name: Gold
+    SkinMaterial: {fileID: 2100000, guid: 161a726b4e95f0d4caa48c37ded236a6, type: 2}
+    StorePresence: {fileID: 21300000, guid: d5bd766910e88f84b925dd875c6c768f, type: 3}
