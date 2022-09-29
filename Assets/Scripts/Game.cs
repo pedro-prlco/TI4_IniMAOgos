@@ -40,6 +40,7 @@ namespace TI4
         void SetMainCharacterInternal(CharacterBase characterBase)
         {
             _mainCharacter = characterBase;
+            _mainCharacter.SetSkin(skinsData.GetSkin(PlayerPrefs.GetString("CurrentSkin", "Padrão")));
         }
 
         void SetMainCharacterSkinInternal(CharacterSkinData skin)
@@ -51,6 +52,7 @@ namespace TI4
             }
 
             _mainCharacter.SetSkin(skin);
+            PlayerPrefs.SetString("CurrentSkin", skin.Name);
         }
 
         CharacterSkinData[] GetAvailableCharacterSkinsInternal()
