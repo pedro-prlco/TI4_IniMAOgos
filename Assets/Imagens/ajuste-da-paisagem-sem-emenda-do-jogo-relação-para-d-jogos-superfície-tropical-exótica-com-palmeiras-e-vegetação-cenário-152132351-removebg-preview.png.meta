@@ -1,0 +1,1564 @@
+fileFormatVersion: 2
+guid: c592e4df28b9f37438ff4e3bfb788645
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_0"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 517
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5cd09bff031794fa3f916f686ef562
+      internalID: 1103124507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_1"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac02f7a7892084f4d9853d7dd8757cdf
+      internalID: -738482866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_2"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 487
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f100d5f06ae8474883ac5c605f1ef2c
+      internalID: -2024947226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_3"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 487
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cd22da03fb64441a4392e607c2d954
+      internalID: -1071112425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_4"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 487
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295c75a3561a87044917614a436d9d94
+      internalID: 1254038367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_5"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 457
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c07e20c9ceae643abca901cd081ad5
+      internalID: 755508524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_6"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 457
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3a70bd935dd9f47bc711013ee1b176
+      internalID: 1669597737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_7"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 457
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85f3654c9048614a91567c846dee596
+      internalID: 543102027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_8"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 457
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0542810ddb479684485b3f7574419c65
+      internalID: 1223826094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_9"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 427
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35026e5f6d43412449b45e4d36b86042
+      internalID: 2020938822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_10"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 427
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ad7a51f4cf903469eb089364e6e487
+      internalID: -1323979367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_11"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 427
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13ea5581efe6344fbfc1061a7dc80b1
+      internalID: 2019033956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_12"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 427
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826497eed1723084daaaaa1fe3f0599e
+      internalID: -460279502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_13"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7826f967109d63b4e81a2b202ba96a38
+      internalID: -1562020386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_14"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 397
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74819cf419ac5f84c9608d58f2e4cce2
+      internalID: -1309247703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_15"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 397
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b65f35d755ff2428251b52b9a8301d
+      internalID: -1140675357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_16"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 397
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913fb1a878d09a6429887e1a99805e81
+      internalID: -592595791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_17"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 367
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4957c43cfbf11c047b597812d7ed0812
+      internalID: -1880413867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_18"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 367
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e360fd831110916469bdcf2e8eebfcad
+      internalID: 567894865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_19"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 367
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d49c4bd6b7a2884da6cb17e29906685
+      internalID: 528854313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_20"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 367
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57229e4da16791b48b504ab3b850b79f
+      internalID: 1332063328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_21"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46e73a41eff464aa84243df0b99ba3
+      internalID: 1197679566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_22"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 337
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0917ec34910d71b4f91a506fc1757596
+      internalID: 2044974270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_23"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 337
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2ce47c8d013a744b37839efeb47943
+      internalID: 1361272783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_24"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 337
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0322632ee8e58284088e5712c3a0fc64
+      internalID: -374243566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_25"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2068e8556ac684f88baa1c1e49e485
+      internalID: 96301003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_26"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 307
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46e06eaa61b05f488b824b048fb269b
+      internalID: 1672798906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_27"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 307
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99d8083ba725fb4ab9934fab6df4eec
+      internalID: -1728292677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_28"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 307
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01c09f25b8dfad4d9a43fbc066c8094
+      internalID: -1971824120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_29"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d9d8b3434423342aea5c191d005f86
+      internalID: 96707012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_30"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 277
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614351bbb41c74e44b7c5ad75ed7c45b
+      internalID: -397042620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_31"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 277
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c74f9437ae6c142806b9608fa2fb48
+      internalID: -802744023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_32"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 277
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac0bcdee3a79034182b0058d63eeb6d
+      internalID: -1219658513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_33"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00607e22d07416c499a20b127ca1ab0f
+      internalID: 783306039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_34"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 247
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ff9a80d34763e4d8af10f756e042dc
+      internalID: 2043041288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_35"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3b98c90271d19409b2e12da1883dab
+      internalID: -1293100060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_36"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 217
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c917761de6822c4489949a484cdbdc8
+      internalID: 1752771280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_37"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 217
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baca25de73508f34aa29f963de8d205b
+      internalID: -1822378617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_38"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 217
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1450331042fef4b8254cfbd687df66
+      internalID: -1007775398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_39"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099ccdef276a6374aab336686e5e1556
+      internalID: 310623286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_40"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 187
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea3b8eba39683e42a2edd45b2be9e63
+      internalID: 1924392276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_41"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 187
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a7d80bd9e844548913384e0464cfc8
+      internalID: -1902255706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_42"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 187
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035693248d17d894392c8e5f72b20f8c
+      internalID: -841611528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_43"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 157
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d00c71e1c3021419fe962a8b6de1b0
+      internalID: -886142157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_44"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 157
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296012b6b1eb8274e8ac88a7221dc8f1
+      internalID: -796382795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_45"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80043d501396c27409504ca9d86f5526
+      internalID: -1872950372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_46"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 127
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bb348409c86ab42be566001a15e558
+      internalID: 163690720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_47"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 127
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c4bb018cf912c49bf91fb8acac2627
+      internalID: -132103900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_48"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 127
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08ce5601bbcbfe46a870a0f059311ef
+      internalID: -1637095565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_49"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5212f96f1b4207248b077807e6b98237
+      internalID: -855596698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_50"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 97
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9299514f4ddaa8149af767d9e5ec402c
+      internalID: -534403254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_51"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 97
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9144be74d5e90a4cb77f01409e2e817
+      internalID: 1458151275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_52"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 97
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db3fdd5ec72c6d48b71fc2b37874a14
+      internalID: -27240840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_53"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43960bb96c02fb459eca9ffb7da9413
+      internalID: -981559031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_54"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f19b0b8c1199154fba5f9873902e5af
+      internalID: -1526977159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_55"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 67
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c740978e809906241b87edfd1b295864
+      internalID: -1426382544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_56"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 67
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa4b6dd74aa8ce41b7f7a33c1e38122
+      internalID: -520065494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_57"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186af4a5ef5e8a1458516ed0bc2d916b
+      internalID: 1613898721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_58"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 37
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694b2a9c7d394164e88ed640e93f9198
+      internalID: 1009708641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_59"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 37
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661fed4314604414b9fc41f6569c3b1d
+      internalID: -2030176707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_60"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 37
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b7ecc3ad055cc408458063d60c45eb
+      internalID: 1600523439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_61"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75969dc90a3507c4a89ce35a66f29e72
+      internalID: 662367719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_62"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 7
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd2234f30f8e7b4db56b1e1f4997a6c
+      internalID: -1233050227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_63"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 7
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43d2f99c274f5544a8f989103a70d44
+      internalID: -1252213068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_64"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 7
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23be83922d31fc46ab8b8fc78850709
+      internalID: 1008056626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_2": -2024947226
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_21": 1197679566
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_27": -1728292677
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_24": -374243566
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_59": -2030176707
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_23": 1361272783
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_30": -397042620
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_22": 2044974270
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_1": -738482866
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_33": 783306039
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_18": 567894865
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_12": -460279502
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_16": -592595791
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_28": -1971824120
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_7": 543102027
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_11": 2019033956
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_38": -1007775398
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_36": 1752771280
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_40": 1924392276
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_44": -796382795
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_56": -520065494
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_41": -1902255706
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_52": -27240840
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_55": -1426382544
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_57": 1613898721
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_14": -1309247703
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_61": 662367719
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_9": 2020938822
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_34": 2043041288
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_31": -802744023
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_32": -1219658513
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_63": -1252213068
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_25": 96301003
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_46": 163690720
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_64": 1008056626
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_20": 1332063328
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_0": 1103124507
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_6": 1669597737
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_13": -1562020386
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_48": -1637095565
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_3": -1071112425
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_35": -1293100060
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_5": 755508524
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_4": 1254038367
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_17": -1880413867
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_43": -886142157
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_8": 1223826094
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_47": -132103900
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_15": -1140675357
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_19": 528854313
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_26": 1672798906
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_58": 1009708641
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_37": -1822378617
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_45": -1872950372
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_10": -1323979367
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_42": -841611528
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_51": 1458151275
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_29": 96707012
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_39": 310623286
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_54": -1526977159
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_49": -855596698
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_53": -981559031
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_60": 1600523439
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_50": -534403254
+      "ajuste-da-paisagem-sem-emenda-do-jogo-rela\xE7\xE3o-para-d-jogos-superf\xEDcie-tropical-ex\xF3tica-com-palmeiras-e-vegeta\xE7\xE3o-cen\xE1rio-152132351-removebg-preview_62": -1233050227
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
