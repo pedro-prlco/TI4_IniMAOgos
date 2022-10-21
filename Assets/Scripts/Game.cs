@@ -16,8 +16,8 @@ namespace TI4
         [SerializeField]
         private UnityEvent OnStart;
 
-        [SerializeField]
         CharacterBase _mainCharacter;
+        Camera levelCamera;
 
         void Awake()
         {
@@ -113,6 +113,26 @@ namespace TI4
             }
 
             return instance._ui;
+        }
+
+        public static Camera GetLevelCamera()
+        {
+            if(instance == null)
+            {
+                return Camera.main;
+            }
+
+            return instance.levelCamera;
+        }
+
+        public static void SetLevelCamera(Camera camera)
+        {
+            if(instance == null)
+            {
+                return;
+            }
+
+            instance.levelCamera = camera;
         }
     }
 }

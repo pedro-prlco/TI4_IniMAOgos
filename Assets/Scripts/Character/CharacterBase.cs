@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Collections.Generic;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -29,6 +30,10 @@ namespace TI4
             _currentSkin = new CharacterSkinData(skin.Name, skin.SkinMaterial, skin.StorePresence);
             GetComponentInChildren<SkinnedMeshRenderer>().material = _currentSkin.SkinMaterial;
             SetState(State.Spotted);
+        }
+
+        public virtual void Walk(KeyValuePair<Vector3, Vector3>[] path)
+        {
         }   
     }
 

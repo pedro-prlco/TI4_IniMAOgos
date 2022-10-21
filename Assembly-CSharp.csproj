@@ -36,18 +36,41 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\UI\UIPanel_Config.cs" />
+     <Compile Include="Assets\Scenes\MapaJogo\Forest Pack\Scripts\MaterialMover.cs" />
      <Compile Include="Assets\Scripts\UI.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\SO_EnemyData.cs" />
      <Compile Include="Assets\Scripts\Character\CharacterBase.cs" />
      <Compile Include="Assets\Scripts\Character\CharacterAnimation.cs" />
      <Compile Include="Assets\Scripts\UI\UIPanel.cs" />
-     <Compile Include="Assets\Scripts\Game.cs" />
-     <Compile Include="Assets\Scripts\ScriptableObjects\SO_PanelData.cs" />
-     <Compile Include="Assets\Scripts\UI\UIPanel_MainMenu.cs" />
-     <Compile Include="Assets\Scripts\UI\UIPanel_Customize.cs" />
-     <Compile Include="Assets\Scripts\UI\UIElement\UIElement_SkinButton.cs" />
-     <Compile Include="Assets\Scripts\Character\CharacterSkinData.cs" />
-     <Compile Include="Assets\Scripts\ScriptableObjects\SO_SkinData.cs" />
      <Compile Include="Assets\Scripts\Character\Utils\SetAsMainOnStart.cs" />
+     <Compile Include="Assets\Scenes\MapaJogo\Forest Pack\Scripts\WheelController.cs" />
+     <Compile Include="Assets\Scripts\Level\Dijkstra.cs" />
+     <Compile Include="Assets\Scripts\Level\grafosInimaogos.cs" />
+     <Compile Include="Assets\Scripts\UI\UIPanel_MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Game.cs" />
+     <Compile Include="Assets\Scripts\HealthTest.cs" />
+     <Compile Include="Assets\Scripts\Character\CharacterSkinData.cs" />
+     <Compile Include="Assets\Scenes\MapaJogo\Forest Pack\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\SO_SkinData.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyScript.cs" />
+     <Compile Include="Assets\Scripts\UI\UIPanel_Customize.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\SO_PanelData.cs" />
+     <Compile Include="Assets\Scripts\UI\UIElement\UIElement_SkinButton.cs" />
+     <Compile Include="Assets\Scripts\Level\LevelGraph.cs" />
+     <Compile Include="Assets\Scenes\MapaJogo\Forest Pack\Scripts\ChestDemo.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Character\MapActor.cs" />
+     <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+     <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Scripts\Level\LevelVertex.cs" />
+     <Compile Include="Assets\Scripts\UI\MapCameraController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -64,10 +87,12 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\DOTween_1_2_632\DOTween\readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Scenes\MapaJogo\Forest Pack\READ ME.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -320,6 +345,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Assets\DOTween_1_2_632\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -687,86 +715,112 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\pedro\Documents\UnityProjects\TI4_IniMAOgos\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{a8b973c2-6f5e-b8e1-fa92-588d88755c82}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{506eee74-fcc4-f854-4fea-98307c74a8b0}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{cfbcde08-f576-b8be-4d8b-f98d8a86519c}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
+      <Project>{a3303506-3d46-aedc-16f8-111b1ba16775}</Project>
+      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{cb0854a3-f9bf-e420-94fe-d7795ca525c0}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{e70c8812-6348-bb16-5b5e-79c6c0c0b1fa}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{27f34da3-aa6e-8460-3e31-4370bc380089}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{abb0b46c-4df1-9ea8-5b30-17f7479a41eb}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{5b38a9a2-050d-e051-397f-dac2bdcf0f5e}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{03af48fb-cd13-1508-e855-52c73579169f}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{74a70a3c-632b-e069-56c4-e0fa49b0bd74}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{f6f8e6c2-8e77-5f96-0aaf-b47ef8fe937d}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{1d66a395-5208-2b02-8b17-d66115affcc4}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{aeaa5245-95c7-556a-45a5-82e48fe1fecf}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{1548d613-32a3-d678-e693-f4f2772907c1}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{996f7e14-ef72-3d30-d318-34351bcdfcb6}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{d7523004-e175-d86e-bf74-6405b435c132}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{0122788a-91c9-bb7d-f44d-3381f531d078}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{def14654-b4aa-16b2-eeb1-9a30a7024b73}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{e7acb388-6a45-aa7a-bfec-594be4190291}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{a1eb9702-4eed-8f37-148a-e0bf2b356090}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{e490d264-0624-1b8e-b89f-d42b8d1a4218}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{ca5a72f3-e518-99ca-9e5f-db1d9dd30a5e}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{ad00fec5-f66a-cba5-eba4-c14efcfdf04a}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{861dd957-26a0-afe0-fac3-9778337f3021}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{0ce2c3d2-d35c-1f5e-ae23-19ce349da5d7}</Project>
+      <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
