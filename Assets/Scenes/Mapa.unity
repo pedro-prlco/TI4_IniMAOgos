@@ -889,6 +889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelGraph (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4135533477319584, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1493,6 +1497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelGraph (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4135533477319584, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1591,6 +1599,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2.0000002, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &304191529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304191524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209a66a7edd85b04983d0e84f87e13b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Terra distante - Pt 2
+  description: "Um local desconhecido. Todos os habitantes do vale da L\xEDbra s\xE3o
+    pro\xEDbidos de visitarem este local devido a alguma maldi\xE7\xE3o que assola
+    este local."
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1001 &309082252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1800,6 +1827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelGraph (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4135533477319584, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1952,6 +1983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelGraph (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4135533477319584, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2045,6 +2080,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2.0000002, z: 2.0000005}
   m_Center: {x: 0, y: 0.0000019073486, z: 0}
+--- !u!114 &406815800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128518226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209a66a7edd85b04983d0e84f87e13b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Bosque assombrado - pt 2
+  description: "Uma extens\xE3o do bosque assombrado. Esse local fica a biblioteca
+    sagrada da Libra. Local onde guarda livros importantes sobre esta cl\xE1ssica
+    l\xEDngua."
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &421782585 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
@@ -2081,6 +2135,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2.0000002, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &425149417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425149412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209a66a7edd85b04983d0e84f87e13b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Montanha dos gestos
+  description: "Um vale bem conhecido pelos habitantes que moram em sua volta. \xC9
+    conhecido pelos seus frutos vermelhos e doces."
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1001 &427630757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2091,6 +2163,10 @@ PrefabInstance:
     - target: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
       propertyPath: m_Name
       value: LevelGraph (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4135533477319584, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
       propertyPath: m_RootOrder
@@ -2185,6 +2261,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2.0000002, z: 2.0000005}
   m_Center: {x: 0, y: -0.0000009536743, z: 0}
+--- !u!114 &427630763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5495030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209a66a7edd85b04983d0e84f87e13b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Colina verde - Pt 2
+  description: "Um local calmo e perfeito para meditar. Os antigos ancio\xE7\xF5es
+    costumavam estudar sobre a sagrada l\xEDngua L\xEDbras."
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1001 &432570058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2479,10 +2573,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 26
-  minX: 6
-  maxX: 25.8
-  minZ: -36.8
-  maxZ: -12.8
+  minX: 7.896
+  maxX: 37.65902
+  minZ: -41.491184
+  maxZ: -5.540548
 --- !u!1001 &479941879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2784,68 +2878,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502160235}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &505502955
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7282566442813473160, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_Name
-      value: Game
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 960
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 540
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282566442813473174, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4558628256906e9479e7d22f6778559a, type: 3}
---- !u!224 &505502956 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7282566441975840980, guid: 4558628256906e9479e7d22f6778559a, type: 3}
-  m_PrefabInstance: {fileID: 505502955}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &521224112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3434,74 +3466,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4958913941910646, guid: f4f82206765cef54ca8f19ce34136e8a, type: 3}
   m_PrefabInstance: {fileID: 713005508}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &727488938
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 727488941}
-  - component: {fileID: 727488940}
-  - component: {fileID: 727488939}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &727488939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727488938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &727488940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727488938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &727488941
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727488938}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &731146242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4101,103 +4065,6 @@ Transform:
   m_Father: {fileID: 592550475}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &924307297
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 505502956}
-    m_Modifications:
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979892, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579329187462979899, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
-      propertyPath: m_Name
-      value: UIPanel_Map
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ef3c05608d6e44046a066c280ba6809c, type: 3}
 --- !u!1 &924705402
 GameObject:
   m_ObjectHideFlags: 0
@@ -4953,6 +4820,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelGraph (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4135533477319584, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5046,6 +4917,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2.0000002, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1265172765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176835670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209a66a7edd85b04983d0e84f87e13b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Terra distante
+  description: "Um local desconhecido. Todos os habitantes do vale da L\xEDbra s\xE3o
+    pro\xEDbidos de visitarem este local devido a alguma maldi\xE7\xE3o que assola
+    este local."
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1001 &1288365329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5516,7 +5406,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1534644534}
   - component: {fileID: 1534644533}
-  - component: {fileID: 1534644532}
   - component: {fileID: 1534644535}
   m_Layer: 0
   m_Name: Main Camera
@@ -5525,14 +5414,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1534644532
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534644531}
-  m_Enabled: 1
 --- !u!20 &1534644533
 Camera:
   m_ObjectHideFlags: 0
@@ -5905,6 +5786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelGraph (0)
       objectReference: {fileID: 0}
+    - target: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4135533477319584, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6193,6 +6078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelGraph (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4135533477319584, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6286,6 +6175,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2.0000002, z: 2.0000005}
   m_Center: {x: -0.00000047683716, y: 0, z: 0}
+--- !u!114 &1748498334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421782585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209a66a7edd85b04983d0e84f87e13b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Bosque assombrado
+  description: "Um bosque abandonado descoberto pelos antigos mestres do vale da
+    Libra. Hoje em dia est\xE1 ocupado pelos esp\xEDritos que usam a Libra para o
+    lado ruim."
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1001 &1750445262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7107,6 +7015,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2.0000002, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2007919846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007919841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209a66a7edd85b04983d0e84f87e13b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Colina verde
+  description: "Um local calmo e perfeito para meditar. Os antigos ancio\xE7\xF5es
+    costumavam estudar sobre a sagrada l\xEDngua L\xEDbras."
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1001 &2013884193
 PrefabInstance:
   m_ObjectHideFlags: 0

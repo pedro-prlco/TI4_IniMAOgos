@@ -21,6 +21,8 @@ namespace TI4
         [SerializeField]
         SO_PanelData panelData;
 
+        UIPanel currentPanel;
+
         public void Display_MainMenu()
         {
             SetPanel<UIPanel_MainMenu>(PanelType.MainMenu);
@@ -34,6 +36,12 @@ namespace TI4
         public Panel SetPanel<Panel>(PanelType panelType)
             where Panel : UIPanel
         {
+
+            if(currentPanel != null && currentPanel.PanelType == panelType)
+            {
+                return currentPanel as Panel;
+            }
+            
             foreach(Transform panel in panelHolder)
             {
                 GameObject.Destroy(panel.gameObject);
@@ -47,6 +55,7 @@ namespace TI4
         {
             var panel = (Panel)Instantiate(panelData.GetPanel(panelType), panelHolder);
             OnPanelInstantiated?.Invoke();
+            currentPanel = panel;
             return panel;
         }
     }
