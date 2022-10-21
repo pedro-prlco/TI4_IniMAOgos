@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 
 namespace TI4
@@ -35,6 +36,12 @@ namespace TI4
         void Start()
         {
             OnStart?.Invoke();
+            OnStart.RemoveAllListeners();
+        }
+
+        CharacterBase GetMainCharacterInternal()
+        {
+            return _mainCharacter;
         }
 
         void SetMainCharacterInternal(CharacterBase characterBase)
@@ -63,6 +70,11 @@ namespace TI4
         CharacterSkinData GetCharacterSkinInternal(string name)
         {
             return skinsData.GetSkin(name);
+        }
+
+        public void LoadSceneInternal(string scene)
+        {
+            SceneManager.LoadScene("Mapa");
         }
 
         public static CharacterSkinData[] GetAvailableCharacterSkins()
@@ -133,6 +145,26 @@ namespace TI4
             }
 
             instance.levelCamera = camera;
+        }
+
+        public static void LoadScene(string sceneName)
+        {
+            if(instance == null)
+            {
+                return;
+            }
+
+            instance.LoadSceneInternal(sceneName);
+        }
+
+        public static CharacterBase GetMainCharacter()
+        {
+            if(instance == null)
+            {
+                return null;
+            }
+
+            return instance.GetMainCharacterInternal();
         }
     }
 }

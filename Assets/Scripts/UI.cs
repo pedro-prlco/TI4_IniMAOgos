@@ -12,7 +12,8 @@ namespace TI4
         {
             MainMenu,
             Customize,
-            Config
+            Config,
+            Map,
         }
 
         [SerializeField]

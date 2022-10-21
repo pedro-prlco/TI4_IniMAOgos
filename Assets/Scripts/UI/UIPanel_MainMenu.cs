@@ -20,6 +20,7 @@ namespace TI4
             _configBtn.onClick.RemoveAllListeners();
             _quitBtn.onClick.RemoveAllListeners();
 
+            _playBtn.onClick.AddListener(() => { Game.LoadScene("Mapa"); });
             _storeBtn.onClick.AddListener(()=> { Game.GetUIController().SetPanel<UIPanel_Customize>(UI.PanelType.Customize); } );
             _configBtn.onClick.AddListener(()=> { Game.GetUIController().SetPanel<UIPanel_Config>(UI.PanelType.Config); } );
             _quitBtn.onClick.AddListener(Quit);

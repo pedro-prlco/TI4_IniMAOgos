@@ -14,18 +14,31 @@ namespace TI4
         KeyValuePair<Vector3, Vector3>[] currentPath;
         int[] ids;
         
-
         int currentWalkId = -1;
+        bool IsHardPath;
 
         void Start()
         {
             LevelGraph.OnMapVertexClicked += Walk;
             LevelGraph.OnPathFound += OnIdFound;
+            LevelGraph.OnHardPathSelected += OnHardMapSelected;
+        }
+
+        void OnDisable()
+        {
+            LevelGraph.OnMapVertexClicked -= Walk;
+            LevelGraph.OnPathFound -= OnIdFound;
+            LevelGraph.OnHardPathSelected -= OnHardMapSelected;
         }
         
         void OnIdFound(int[] ids)
         {
             this.ids = ids;
+        }
+
+        void OnHardMapSelected()
+        {
+            IsHardPath = true;
         }
 
         public override void Walk(KeyValuePair<Vector3, Vector3>[] path)
@@ -66,6 +79,12 @@ namespace TI4
                 {
                     SetState(State.Idle);
                     currentWalkId = -1;
+
+                    if(IsHardPath)
+                    {
+                        Game.GetUIController().SetPanel<UIPanel_Map>(UI.PanelType.Map).DisplayWarning();
+                        IsHardPath = false;
+                    }
                 }
             }
         }

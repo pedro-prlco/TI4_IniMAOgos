@@ -71,6 +71,8 @@
      <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\Scripts\Level\LevelVertex.cs" />
      <Compile Include="Assets\Scripts\UI\MapCameraController.cs" />
+     <Compile Include="Assets\Scripts\UI\UIPanel_Map.cs" />
+     <Compile Include="Assets\Scripts\OpenPanelOnStart.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
