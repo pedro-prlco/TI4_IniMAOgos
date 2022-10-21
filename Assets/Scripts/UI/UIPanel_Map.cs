@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 
 namespace TI4
 {
@@ -14,6 +15,10 @@ namespace TI4
         [SerializeField] RectTransform levelHolderContainer;
         [SerializeField] TextMeshProUGUI levelHolderTitleLbl;
         [SerializeField] TextMeshProUGUI levelDescriptionLbl;
+
+        [SerializeField] RectTransform playButton;
+        [SerializeField] Button playButton_Button;
+
         [SerializeField] float holderXOffset;
 
         string warning = "Você vai jogar a fase {0} depois de ter feito um caminho fácil no seu trajeto. Isso resulta em uma gameplay mais difícil. Aceita o desafio ?";
@@ -64,6 +69,16 @@ namespace TI4
             levelHolderTitleLbl.text = title;
             levelDescriptionLbl.text = description;
             levelHolderPosition = worldPosition;
+        }
+
+        public void DisplayPlayButton()
+        {
+            playButton.DOAnchorPos(Vector3.zero, .3f).SetEase(Ease.InCubic);
+        }
+        
+        public void HidePlayButton()
+        {
+            playButton.DOAnchorPos(new Vector3(0, -150, 0), .3f);
         }
 
         public void HideLevelHolder()

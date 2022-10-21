@@ -50,6 +50,8 @@ namespace TI4
             
             currentPath = path;
             currentWalkId = 0;
+
+            Game.GetUIController().SetPanel<UIPanel_Map>(UI.PanelType.Map).HidePlayButton();
         }
 
         void Update()
@@ -75,10 +77,17 @@ namespace TI4
                 currentWalkId++;
                 LevelGraph.CurrentVertex = ids[currentWalkId];
                 Debug.Log("CurrentVertex is " + LevelGraph.CurrentVertex);
+
+
                 if(currentWalkId >= currentPath.Length)
                 {
                     SetState(State.Idle);
                     currentWalkId = -1;
+
+                    if(LevelInfo.current != null && Vector3.Distance(transform.position, LevelInfo.current.transform.position) <= 5f)
+                    {
+                        Game.GetUIController().SetPanel<UIPanel_Map>(UI.PanelType.Map).DisplayPlayButton();
+                    }
 
                     if(IsHardPath)
                     {
