@@ -1,27 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+
 namespace TI4
 {
     public class EnemyScript : MonoBehaviour
     {
+
+        public int Dificuldade => data[dificuldadeId].Dificuldade;
+        
+        int dificuldadeId;
+        public int id;
         [SerializeField] private float speed = 1f;
         [SerializeField] private string word = "Teste";
-        [SerializeField] private SO_EnemyData data;
+        [SerializeField] private TextMeshPro label;
+        [SerializeField] private SO_EnemyData[] data;
         private string typed = "";
         private GameObject target;
 
         // Start is called before the first frame update
         void Start()
         {
-            target = GameObject.FindGameObjectWithTag("Finish");
             SetEnemyValues();
         }
 
         private void SetEnemyValues()
         {
-            this.word = data.word;
-            this.speed = data.speed;
+            dificuldadeId = Random.Range(0, data.Length);
+            this.word = data[dificuldadeId].word.ToLower();
+            this.speed = data[dificuldadeId].speed;
+
+            label.text = word;
         }
 
         // Update is called once per frame
@@ -62,6 +72,7 @@ namespace TI4
             if (word.Equals(typed))
             {
                 Destroy(gameObject);
+                EnemySpawner.EnemiesInScreen.Remove(this);
                 typed = "";
             }
             else if (typed.Length > word.Length)
@@ -72,10 +83,7 @@ namespace TI4
 
         private void Move()
         {
-            if (target != null)
-            {
-                transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
-            }
+            transform.position = Vector3.MoveTowards(transform.position, Game.GetMainCharacter().transform.position, speed * Time.deltaTime);
         }
 
         private void OnTriggerEnter(Collider other)
@@ -85,6 +93,7 @@ namespace TI4
                 if (other.GetComponent<HealthTest>() != null)
                 {
                     other.GetComponent<HealthTest>().Damage(1);
+                    EnemySpawner.EnemiesInScreen.Remove(this);
                     Destroy(gameObject);
                 }
             }

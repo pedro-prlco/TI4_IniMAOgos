@@ -46,7 +46,9 @@
      <Compile Include="Assets\Scripts\UI.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\SO_EnemyData.cs" />
      <Compile Include="Assets\Scripts\Character\CharacterBase.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\SO_LevelData.cs" />
      <Compile Include="Assets\Scripts\Character\CharacterAnimation.cs" />
+     <Compile Include="Assets\Scripts\SetStateOnStart.cs" />
      <Compile Include="Assets\Scripts\UI\UIPanel.cs" />
      <Compile Include="Assets\Scripts\Character\Utils\SetAsMainOnStart.cs" />
      <Compile Include="Assets\Scenes\MapaJogo\Forest Pack\Scripts\WheelController.cs" />
@@ -59,6 +61,7 @@
      <Compile Include="Assets\Scripts\Game.cs" />
      <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleSprite.cs" />
      <Compile Include="Assets\Scripts\HealthTest.cs" />
+     <Compile Include="Assets\Scripts\IA\DecisionTreeManager.cs" />
      <Compile Include="Assets\Scripts\UI\MapCameraController.cs" />
      <Compile Include="Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleUtils.cs" />
      <Compile Include="Assets\Scripts\Character\CharacterSkinData.cs" />
@@ -74,7 +77,7 @@
      <Compile Include="Assets\Scenes\MapaJogo\Forest Pack\Scripts\ChestDemo.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\UI\UIPanel_Map.cs" />
-     <Compile Include="Assets\Scripts\SetStateOnStart.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\SO_Words.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

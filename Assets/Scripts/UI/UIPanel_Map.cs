@@ -21,7 +21,9 @@ namespace TI4
 
         [SerializeField] float holderXOffset;
 
-        string warning = "Você vai jogar a fase {0} depois de ter feito um caminho fácil no seu trajeto. Isso resulta em uma gameplay mais difícil. Aceita o desafio ?";
+        bool inGame;
+
+        string warning = "Você vai jogar a fase {0} depois de ter feito um caminho fácil no seu trajeto. Isso resulta em uma gameplay mais difícil.";
 
         Vector3 levelHolderPosition;
         Vector2 screenPosition;
@@ -31,6 +33,19 @@ namespace TI4
             levelHolderPosition = Vector3.one * -1f; ;
             yesButton.onClick.AddListener(() => { Debug.Log("yes !"); _warningAboutEasyPath.SetActive(false); LevelGraph.CanInteract = true; MapCameraController.CanInteract = true; });
             noButton.onClick.AddListener(() => { Debug.Log("no !"); _warningAboutEasyPath.SetActive(false); LevelGraph.CanInteract = true; MapCameraController.CanInteract = true; });
+            playButton_Button.onClick.AddListener(() => 
+            { 
+                if(!inGame)
+                {
+                    inGame = true;
+                    Game.LoadScene("Teste_de_Inimigo");
+                }
+                else
+                {
+                    inGame = false;
+                    Game.LoadScene("Mapa");
+                } 
+            });
         }
 
         void Update()

@@ -74,7 +74,7 @@ namespace TI4
 
         public void LoadSceneInternal(string scene)
         {
-            SceneManager.LoadScene("Mapa");
+            SceneManager.LoadScene(scene);
         }
 
         public static CharacterSkinData[] GetAvailableCharacterSkins()

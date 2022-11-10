@@ -62,6 +62,9 @@ namespace TI4
 
         void Start()
         {
+
+            CurrentVertex = 1;
+
             GFG.Setup(rawData: this.ToString());
             // SetupPathRenderer();
         }

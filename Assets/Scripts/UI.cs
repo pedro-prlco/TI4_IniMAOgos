@@ -14,6 +14,7 @@ namespace TI4
             Customize,
             Config,
             Map,
+            Gameplay,
         }
 
         [SerializeField]
