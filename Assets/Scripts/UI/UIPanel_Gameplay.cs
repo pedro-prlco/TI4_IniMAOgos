@@ -26,9 +26,13 @@ namespace TI4
         [SerializeField] UIElement_LibraDisplay libraDisplayPrefab;
         [SerializeField] RectTransform wordsContainer;
         [SerializeField] GameObject dicasPanel;
+        [SerializeField] GameObject pausePanel;
+        [SerializeField] Button pauseButton;
 
         List<EnemyScript> enemies;
         List<UIElement_LibraDisplay> libras;
+
+        bool paused = false;
 
         [SerializeField] List<GameObject> tipChars;
         List<char> chars;
@@ -44,6 +48,8 @@ namespace TI4
                 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'
             };
 
+            pauseButton.onClick.AddListener(()=> { UnityEngine.SceneManagement.SceneManager.LoadScene("Mapa"); });
+
             for(int i = 0; i < tipChars.Count; i++)
             {
                 tipCharsDictionary.Add(chars[i], tipChars[i]);
@@ -53,7 +59,7 @@ namespace TI4
             Game.Match.OnScoreChanged += SetScore;
             Game.Match.OnEndGame += OnEndGame;
 
-            backButton.onClick.AddListener(()=> { UnityEngine.SceneManagement.SceneManager.LoadScene("Mapa"); });
+            backButton.onClick.AddListener(()=> { Time.timeScale = 1; UnityEngine.SceneManagement.SceneManager.LoadScene("Mapa"); });
 
             endGamePanel.SetActive(false);
 
@@ -64,11 +70,21 @@ namespace TI4
         void Update()
         {
 
+            if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Mapa");
+                // paused = !paused;
+            }
+
+            Time.timeScale = paused ? 0 : 1;
+            pausePanel.SetActive(paused);
+            
             foreach(EnemyScript enemy in EnemySpawner.EnemiesInScreen)
             {
                 if(!enemies.Contains(enemy))
                 {
                     var libraDisplay = Instantiate(libraDisplayPrefab, wordsContainer);
+                    libraDisplay.transform.SetSiblingIndex(0);
                     libraDisplay.gameObject.SetActive(true);
                     enemies.Add(enemy);
                     libras.Add(libraDisplay);

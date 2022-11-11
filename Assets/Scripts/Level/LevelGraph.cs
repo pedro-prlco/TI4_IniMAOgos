@@ -66,6 +66,7 @@ namespace TI4
             CurrentVertex = 1;
 
             GFG.Setup(rawData: this.ToString());
+            // CurrentVertex = PlayerPrefs.GetInt("Vertex", 1);
             // SetupPathRenderer();
         }
 

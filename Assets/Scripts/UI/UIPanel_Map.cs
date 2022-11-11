@@ -56,6 +56,8 @@ namespace TI4
                     PlayerPrefs.SetFloat("pY", pY);
                     PlayerPrefs.SetFloat("pZ", pZ);
 
+                    PlayerPrefs.SetFloat("Vertex", LevelGraph.CurrentVertex);
+
                     Game.LoadScene("Teste_de_Inimigo");
                 }
                 else

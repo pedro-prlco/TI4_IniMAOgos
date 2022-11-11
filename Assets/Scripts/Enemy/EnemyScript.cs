@@ -49,6 +49,7 @@ namespace TI4
         void Update()
         {
             Move();
+            
             if (Input.anyKeyDown)
             {
                 char lastChar = Input.inputString[Input.inputString.Length -1];
