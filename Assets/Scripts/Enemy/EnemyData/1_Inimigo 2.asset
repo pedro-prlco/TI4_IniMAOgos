@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dificuldade: 1
   word: teste
-  speed: 3
+  speed: 0.3

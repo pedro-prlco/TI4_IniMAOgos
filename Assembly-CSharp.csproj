@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scenes\MapaJogo\Forest Pack\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\SO_SkinData.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyScript.cs" />
+     <Compile Include="Assets\Scripts\UI\UIPanel_Gameplay.cs" />
      <Compile Include="Assets\Scripts\UI\UIPanel_Customize.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\SO_PanelData.cs" />
      <Compile Include="Assets\Scripts\UI\UIElement\UIElement_SkinButton.cs" />
@@ -78,6 +79,7 @@
      <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\UI\UIPanel_Map.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\SO_Words.cs" />
+     <Compile Include="Assets\Scripts\UI\UIElement\UIElement_LibraDisplay.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -827,6 +829,10 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{0ce2c3d2-d35c-1f5e-ae23-19ce349da5d7}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{7959faa2-b11a-b385-2208-1c7345130789}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

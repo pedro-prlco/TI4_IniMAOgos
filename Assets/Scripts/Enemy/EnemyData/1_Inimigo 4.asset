@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dificuldade: 1
   word: dados
-  speed: 2
+  speed: 0.3

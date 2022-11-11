@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LevelType3
   m_EditorClassIdentifier: 
   Id: 3
-  MaxEnemiesInScreen: 4
+  MaxEnemiesInScreen: 1
   MinEnemies: 9
   MaxEnemies: 12
   EnemyLvl: 000000000100000002000000

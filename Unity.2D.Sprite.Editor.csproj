@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{a8b973c2-6f5e-b8e1-fa92-588d88755c82}</ProjectGuid>
+    <ProjectGuid>{7959faa2-b11a-b385-2208-1c7345130789}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.VisualScripting.Flow.Editor</AssemblyName>
+    <AssemblyName>Unity.2D.Sprite.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -36,174 +36,46 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_1_6_to_1_7.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\VariableKindOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\NesterUnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Options\UnitOptionProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\NestrerUnitWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\Obsolete\GetVariableUnitOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Analytics\FlowMacroSavedEvent.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_0_1.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\UnitPortWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SelectUnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\FlowMacroDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Connections\InvalidConnectionWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SelectOnFlowDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\ForEachDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\SuperUnitEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Units\UnitWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_1_1_3_to_1_2_0.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_1_1_2_to_1_1_3.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_1_3.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Events\MessageListenerEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\ExposeOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\SuperUnitWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\FlowCanvas.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_1_0_2_to_1_0_3.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\Obsolete\VariableUnitOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SelectOnEnumDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Events\EventUnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\NesterUnitEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\InputSystemWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\SuperUnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Events\TriggerCustomEventDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SelectOnIntegerDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\BoltFlowResources.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Options\UnitCategoryOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\IUnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Options\UnitOptionUtility.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Options\UnitOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\UnitPortDescription.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\FlowGraphDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\BoltFlowPaths.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Options\UnitOptionTree.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\UnitOutputPortWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\LiteralWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\ExposeDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_1_2_4_to_1_3_0.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\MultiInputUnitNumericDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\UnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\UnitPortDefinitionInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Acknowledgements\Acknowledgement_NCalc.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Properties\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SwitchUnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\GraphInputInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Connections\ControlConnectionWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\IUnitPortWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Connections\IUnitConnectionWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\Obsolete\VariableUnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\CreateStructOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\GetMemberDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\GraphOutputDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\FlowMachineDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\InvalidOutputWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_0_2.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\OnInputSystemEventAnalyser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\ValueInputWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_Asset_to_Package.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Connections\UnitConnectionStyles.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Connections\ValueConnectionWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SwitchOnEnumDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\ValueInputDefinitionInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\CreateStructDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\UnifiedVariableUnitWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\RuntimeGraphBase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Events\GlobalMessageListenerEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\BoltFlowConfiguration.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Units\UnitInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Events\EventUnitWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\Obsolete\VariableUnitWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\MemberUnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\UnitAnalysis.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\ValuePortDefinitionInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\FlowGraphUnitUISample.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_3_0.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_2_3.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Events\CustomEventDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\BoltFlowManifest.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_0_0.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\IsVariableDefinedOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\BoltFlowNameUtility.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_1_1_1_to_1_1_2.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\SetMemberDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\NesterUnitOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Invocations\InvocationInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_0.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_10.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\InvalidInputWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Units\IUnitWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\GetVariableOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\FlowDragAndDropUtility.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\ControlInputWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\UnifiedVariableUnitOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\GraphInputAnalyser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_0_3.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\Obsolete\IsVariableDefinedUnitOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\LiteralDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\FlowMachineEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\UnifiedVariableUnitDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\GraphInputWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\GetMemberOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\LiteralInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_1_0..cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Options\UnitOptionFilter.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SequenceDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\UnitPortDefinitionUtility.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_0_4.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_2.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\GraphOutputInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\GraphOutputWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\GraphInputDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Options\IUnitOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_6.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\ControlOutputWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\MultiInputUnitAlphabeticDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Connections\UnitConnectionWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\UnitDescription.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_2_2.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Units\UnitEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\LiteralOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\NesterUnitAnalyser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\FlowGraphContext.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_2_4.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\MemberUnitOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_7.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_1_2_0_to_1_2_2.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\UnitPortDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_8.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SwitchOnIntegerDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_4.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_5.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Description\UnitAnalyser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\InvokeMemberOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\FlowGraphEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\FlowEditorBindings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_1_3_0_to_1_4_0.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\SetVariableOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Time\WaitForFlowDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\MemberUnitAnalyser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Nesting\GraphOutputAnalyser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Options\UnitOptionRow.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\BoltFlow.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SwitchOnStringDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\InvokeMemberDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\InputActionInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_1_2.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Codebase\SetMemberOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\UnitInputPortWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_2_0.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Ports\ValueOutputWidget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_1.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_1_5_1_to_1_5_2.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\XFlowGraph.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Options\UnitBase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\ForAnalyser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Variables\Obsolete\SetVariableUnitOption.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Framework\Control\SelectOnStringDescriptor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_1_1.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Invocations\MemberInvocationInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_4_3.cs" />
-     <None Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Flow\Unity.VisualScripting.Flow.Editor.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditor\SpriteEditorWindow.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditor\SpriteRect.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModule.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpritePhysicsShapeModule.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Interface\IAssetDatabase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteFrameModule\SpritePolygonModeModuleView.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditor\SpriteUtilityWindow.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteEditorData.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Interface\IEvent.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditor\SpriteNameFileIdPair.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Interface\ISpriteEditorDataProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditor\SpriteEditorHandles.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\ISpriteEditorModule.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditor\SpriteEditorMenu.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Interface\ITexture.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditor\SpriteEditorWindowSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\TextureImporterDataProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Obsolete\ObsoleteSupport.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteOutlineModule.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteSecondaryTexturesModule.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\ShapeEditor\ShapeEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\ShapeEditor\ShapeEditorRectSelection.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Interface\IGUIUtility.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\TextureImporterDataProviderImplementation.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Interface\IUndoSystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Interface\IGL.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleBaseView.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleView.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditor\SpriteEditorUtility.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteFrameModule\DefaultSpriteNameFileIdDataProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\ObjectMenuCreation\MenuItems.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Interface\IHandles.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\SpriteEditorModule\SpriteFrameModule\SpritePolygonModeModule.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\ObjectMenuCreation\ItemCreationUtility.cs" />
+     <None Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\UI\SpriteEditor\SpriteFrameModuleInspector.uxml" />
+     <None Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\Unity.2D.Sprite.Editor.asmdef" />
+     <None Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\UI\SpriteEditor\PolygonChangeShapeWindow.uxml" />
+     <None Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Editor\UI\SpriteEditor\SpriteEditor.uss" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -875,18 +747,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{def14654-b4aa-16b2-eeb1-9a30a7024b73}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{abb0b46c-4df1-9ea8-5b30-17f7479a41eb}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{1d66a395-5208-2b02-8b17-d66115affcc4}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{aeaa5245-95c7-556a-45a5-82e48fe1fecf}</Project>
       <Name>UnityEditor.UI</Name>

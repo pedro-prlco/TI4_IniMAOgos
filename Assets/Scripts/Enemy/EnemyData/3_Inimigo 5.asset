@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dificuldade: 3
   word: Melancia
-  speed: 2
+  speed: 0.3

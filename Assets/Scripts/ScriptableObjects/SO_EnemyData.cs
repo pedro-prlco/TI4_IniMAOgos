@@ -8,7 +8,7 @@ namespace TI4
     {
         public int Dificuldade;
         public string word;
-        public int speed;
+        public float speed;
     }
 }
 

@@ -38,6 +38,24 @@ namespace TI4
                 if(!inGame)
                 {
                     inGame = true;
+                    Game.CurrentMatch = new Game.Match();
+
+                    float camX = Game.GetLevelCamera().transform.position.x;
+                    float camY = Game.GetLevelCamera().transform.position.y;
+                    float camZ = Game.GetLevelCamera().transform.position.z;
+
+                    float pX = Game.GetMainCharacter().transform.position.x;
+                    float pY = Game.GetMainCharacter().transform.position.y;
+                    float pZ = Game.GetMainCharacter().transform.position.z;
+
+                    PlayerPrefs.SetFloat("camX", camX);
+                    PlayerPrefs.SetFloat("camY", camY);
+                    PlayerPrefs.SetFloat("camZ", camZ);
+                    
+                    PlayerPrefs.SetFloat("pX", pX);
+                    PlayerPrefs.SetFloat("pY", pY);
+                    PlayerPrefs.SetFloat("pZ", pZ);
+
                     Game.LoadScene("Teste_de_Inimigo");
                 }
                 else

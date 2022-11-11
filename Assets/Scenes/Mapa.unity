@@ -753,10 +753,7 @@ MonoBehaviour:
     weight: 1
   pathWidth: 2
   pathMaterial: {fileID: 2100000, guid: d38ae3626156e7241bedacfa2986a626, type: 2}
-  hardPaths:
-  - FromVertex: 1
-    ToVertex: 4
-    weight: 0
+  hardPaths: []
 --- !u!1001 &155421851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1705,6 +1702,10 @@ PrefabInstance:
     - target: {fileID: 498100324427530999, guid: 32dbb2d11c896114fb093db6a2559ef9, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 732101342512208445, guid: 32dbb2d11c896114fb093db6a2559ef9, type: 3}
+      propertyPath: loadPos
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 732101342763040807, guid: 32dbb2d11c896114fb093db6a2559ef9, type: 3}
       propertyPath: m_RootOrder
@@ -6222,6 +6223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  loadPos: 0
 --- !u!1 &1541899525
 GameObject:
   m_ObjectHideFlags: 0

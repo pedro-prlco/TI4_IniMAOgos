@@ -38,6 +38,14 @@ namespace TI4
             }
 
             StartCoroutine(Spawn(spawnFrequency1));
+    
+            Game.Match.OnEndGame += (state)=> 
+            {
+                for(int i = 0; i < EnemiesInScreen.Count; i++)
+                {
+                    Destroy(EnemiesInScreen[i].gameObject);
+                }
+            };
         }
 
         private IEnumerator Spawn(float interval)
@@ -74,6 +82,13 @@ namespace TI4
                     }
                 }
             }
+
+            while(TotalSpawned >= LevelInfo.currentData.MaxEnemies && EnemiesInScreen.Count > 0)
+            {
+                yield return new WaitForSeconds(1f);
+            }
+
+            Game.CurrentMatch.EndMatch(Game.Match.EndMatchState.WIN);
         }
     }
 }

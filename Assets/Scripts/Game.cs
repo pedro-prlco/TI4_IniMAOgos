@@ -2,11 +2,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 
+using System;
+
 namespace TI4
 {
     public class Game : MonoBehaviour
     {
         private static Game instance;
+
+        public static Match CurrentMatch;
 
         [SerializeField]
         private UI _ui;
@@ -165,6 +169,57 @@ namespace TI4
             }
 
             return instance.GetMainCharacterInternal();
+        }
+
+        public class Match
+        {
+
+            public enum EndMatchState { WIN, LOSE }
+
+            public static Action<int> OnLifeChanged;
+            public static Action<float> OnScoreChanged;
+            public static Action<EndMatchState> OnEndGame;
+
+            private float score;
+            private int life;
+
+            public float Score => score;
+            public int Life => life;
+
+            public Match()
+            {
+                life = 5;
+            }
+
+            public void SetLife(int newLife)
+            {
+                life = newLife;
+
+                if(life == 0)
+                {
+                    EndMatch(EndMatchState.LOSE);
+                }
+
+                OnLifeChanged?.Invoke(life);
+            }
+
+            public void SetScore(float newScore)
+            {
+                score = newScore;
+                OnScoreChanged?.Invoke(newScore);
+            }
+
+            public void EndMatch(EndMatchState state)
+            {
+                float bestScore = PlayerPrefs.GetFloat("bestScore", 0);
+
+                if(bestScore < score)
+                {
+                    PlayerPrefs.SetFloat("bestScore", score);
+                }
+
+                OnEndGame?.Invoke(state);
+            }
         }
     }
 }

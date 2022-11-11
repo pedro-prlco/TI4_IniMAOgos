@@ -22,6 +22,9 @@ namespace TI4
                 case UI.PanelType.Map:
                     Game.GetUIController().SetPanel<UIPanel_Map>(UI.PanelType.Map);
                 break;
+                case UI.PanelType.Gameplay:
+                    Game.GetUIController().SetPanel<UIPanel_Gameplay>(UI.PanelType.Gameplay);
+                    break;
             }
         }
     }
